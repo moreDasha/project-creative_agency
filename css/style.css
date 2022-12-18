@@ -1,7 +1,6 @@
-@charset "UTF-8";
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
-/* line 7, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 7, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
   margin: 0;
   padding: 0;
@@ -12,19 +11,19 @@ html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquot
   background: transparent;
 }
 
-/* line 17, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 17, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 article, aside, figure, footer, header, nav, section, details, summary {
   display: block;
 }
 
 /* Handle box-sizing while better addressing child elements:
    https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-/* line 21, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 21, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 25, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 *,
 *:before,
 *:after {
@@ -34,7 +33,7 @@ html {
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
 /* Responsive images and other embedded objects
 */
-/* line 35, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 35, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 img,
 object,
 embed {
@@ -51,24 +50,24 @@ embed {
 }
 */
 /* force a vertical scrollbar to prevent a jumpy page */
-/* line 50, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 50, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 html {
   overflow-y: scroll;
 }
 
 /* we use a lot of ULs that aren't bulleted.
 	don't forget to restore the bullets within content. */
-/* line 54, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 54, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 ul {
   list-style: none;
 }
 
-/* line 56, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 56, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 58, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 58, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -77,7 +76,7 @@ q:after {
   content: none;
 }
 
-/* line 63, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 63, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 a {
   margin: 0;
   padding: 0;
@@ -86,37 +85,37 @@ a {
   background: transparent;
 }
 
-/* line 65, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 65, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 67, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 67, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted #000;
   cursor: help;
 }
 
 /* tables still need cellspacing="0" in the markup */
-/* line 70, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 70, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 71, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 th {
   font-weight: bold;
   vertical-align: bottom;
 }
 
-/* line 72, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 72, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 td {
   font-weight: normal;
   vertical-align: top;
 }
 
-/* line 74, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 74, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 hr {
   display: block;
   height: 1px;
@@ -126,12 +125,12 @@ hr {
   padding: 0;
 }
 
-/* line 76, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 76, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 input, select {
   vertical-align: middle;
 }
 
-/* line 78, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 78, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 pre {
   white-space: pre;
   /* CSS2 */
@@ -143,78 +142,78 @@ pre {
   /* IE */
 }
 
-/* line 85, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 85, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 input[type="radio"] {
   vertical-align: text-bottom;
 }
 
-/* line 86, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 86, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 input[type="checkbox"] {
   vertical-align: bottom;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 87, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .ie7 input[type="checkbox"] {
   vertical-align: baseline;
 }
 
-/* line 88, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 88, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .ie6 input {
   vertical-align: text-bottom;
 }
 
-/* line 90, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 90, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 select, input, textarea {
   font: 99% sans-serif;
 }
 
-/* line 92, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 92, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 table {
   font-size: inherit;
   font: 100%;
 }
 
-/* line 94, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 94, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 small {
   font-size: 85%;
 }
 
-/* line 96, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 96, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 98, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 98, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 td, td img {
   vertical-align: top;
 }
 
 /* Make sure sup and sub don't mess with your line-heights https://gist.github.com/413930 */
-/* line 101, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 101, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
 }
 
-/* line 102, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 102, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 103, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 103, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 sub {
   bottom: -0.25em;
 }
 
 /* standardize any monospaced elements */
-/* line 106, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 106, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 pre, code, kbd, samp {
   font-family: monospace, sans-serif;
 }
 
 /* hand cursor on clickable elements */
-/* line 109, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 109, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .clickable,
 label,
 input[type=button],
@@ -225,13 +224,13 @@ button {
 }
 
 /* Webkit browsers add a 2px margin outside the chrome of form elements */
-/* line 117, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 117, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 button, input, select, textarea {
   margin: 0;
 }
 
 /* make buttons play nice in IE */
-/* line 120, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 120, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 button,
 input[type=button] {
   width: auto;
@@ -239,7 +238,7 @@ input[type=button] {
 }
 
 /* scale images in IE7 more attractively */
-/* line 124, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 124, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
@@ -249,7 +248,7 @@ input[type=button] {
 .ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
 */
 /* let's clear some floats */
-/* line 132, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 132, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .clearfix:before, .clearfix:after {
   content: "\0020";
   display: block;
@@ -257,12 +256,12 @@ input[type=button] {
   overflow: hidden;
 }
 
-/* line 133, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 133, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 134, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/resets.scss */
+/* line 134, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/resets.scss */
 .clearfix {
   zoom: 1;
 }
@@ -273,7 +272,7 @@ input[type=button] {
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 9, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 9, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -286,7 +285,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 21, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 21, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 body {
   margin: 0;
 }
@@ -294,7 +293,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 29, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 29, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 main {
   display: block;
 }
@@ -303,7 +302,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 38, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 38, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -315,7 +314,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 51, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 51, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -329,7 +328,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 62, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 62, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -342,7 +341,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 74, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 74, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 a {
   background-color: transparent;
 }
@@ -351,7 +350,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 83, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 83, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -364,7 +363,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 93, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 93, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 b,
 strong {
   font-weight: bolder;
@@ -374,7 +373,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 103, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 103, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 code,
 kbd,
 samp {
@@ -387,7 +386,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 114, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 114, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 small {
   font-size: 80%;
 }
@@ -396,7 +395,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 123, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 123, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 sub,
 sup {
   font-size: 75%;
@@ -405,12 +404,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 131, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 131, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 135, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 135, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 sup {
   top: -0.5em;
 }
@@ -420,7 +419,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 146, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 146, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 img {
   border-style: none;
 }
@@ -431,7 +430,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 158, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 158, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 button,
 input,
 optgroup,
@@ -451,7 +450,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 174, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 174, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 button,
 input {
   /* 1 */
@@ -462,7 +461,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 184, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 184, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 button,
 select {
   /* 1 */
@@ -472,7 +471,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 193, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 193, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -488,7 +487,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 214, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 214, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -499,7 +498,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 225, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 225, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -510,7 +509,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 236, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 236, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -529,7 +528,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 249, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 249, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 progress {
   vertical-align: baseline;
 }
@@ -537,7 +536,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 257, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 257, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 textarea {
   overflow: auto;
 }
@@ -546,7 +545,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 266, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 266, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -558,7 +557,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 276, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 276, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -568,7 +567,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 286, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 286, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 [type="search"] {
   outline-offset: -2px;
   /* 2 */
@@ -577,7 +576,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 294, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 294, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 [type="search"]::-webkit-search-decoration
 ::-webkit-file-upload-button {
   font: inherit;
@@ -589,7 +588,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 312, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 312, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 details {
   display: block;
 }
@@ -597,7 +596,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 320, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 320, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 summary {
   display: list-item;
 }
@@ -607,7 +606,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 331, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 331, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 template {
   display: none;
 }
@@ -615,12 +614,12 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 339, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/normalizes.scss */
+/* line 339, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/normalizes.scss */
 [hidden] {
   display: none;
 }
 
-/* line 4, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 3, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 * {
   box-sizing: border-box;
 }
@@ -638,18 +637,18 @@ template {
   font-weight: bold;
 }
 
-/* line 17, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 14, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 html {
   font-family: "RobotO";
 }
 
-/* line 22, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 17, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .fist-section {
   margin-top: 35px;
   margin-bottom: 60px;
 }
 
-/* line 25, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 20, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .fist-section__header {
   display: flex;
   justify-content: space-between;
@@ -657,49 +656,49 @@ html {
   margin-left: 72px;
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 25, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .fist-section__info {
   padding-top: 10px;
   font-size: 18px;
   line-height: 2;
 }
 
-/* line 34, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 29, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .fist-section__info span {
   color: #747474;
 }
 
-/* line 38, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 32, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 41, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 35, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .nav-menu__item {
   font-size: 20px;
   font-weight: 700;
   margin-right: 20px;
 }
 
-/* line 45, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 39, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .nav-menu__item:last-child {
   margin-right: 0px;
 }
 
-/* line 47, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 41, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .nav-menu__item a {
   text-decoration: none;
   color: black;
 }
 
-/* line 51, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 44, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 47, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .center-box {
   width: 1140px;
   display: flex;
@@ -708,36 +707,37 @@ html {
   margin-bottom: 110px;
 }
 
-/* line 61, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 53, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .center-box__img {
   width: 570px;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 55, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .title {
   font-size: 45px;
   font-weight: bold;
 }
 
-/* line 67, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 58, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .title span {
   font-size: 40px;
   font-weight: normal;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 61, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .right-part {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 75, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
-.right-part__elips {
+/* line 65, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
+  border: none;
   width: 138px;
   height: 138px;
   border-radius: 69px;
@@ -746,59 +746,65 @@ html {
   text-align: center;
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 77, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.button_white {
+  background-color: white;
+  color: black;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .partners-box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 91, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 84, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .partners-box__text {
   font-size: 27px;
   margin-bottom: 47px;
 }
 
-/* line 94, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 87, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .partners-box span {
   font-size: 22px;
 }
 
-/* line 97, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 89, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .second-section {
   margin-top: 60px;
   margin-bottom: 80px;
 }
 
-/* line 100, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 92, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .second-section__content-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 104, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 96, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .second-section__title {
   margin-bottom: 32px;
 }
 
-/* line 106, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 98, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .second-section__text {
   color: #747474;
   font-size: 16px;
 }
 
-/* line 110, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 102, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .right-list__item {
   margin-bottom: 9px;
 }
 
-/* line 112, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 104, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .right-list__item:last-child {
   margin-bottom: 0px;
 }
 
-/* line 114, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 106, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .list-title {
   margin-top: 78px;
   width: 385px;
@@ -809,19 +815,19 @@ html {
   border-bottom: 1px solid black;
 }
 
-/* line 122, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 114, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .list-title__text {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 125, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 117, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .list-title__number {
   font-size: 18px;
   font-weight: bold;
 }
 
-/* line 129, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 120, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .awards {
   margin-top: 20px;
   width: 385px;
@@ -832,43 +838,48 @@ html {
   font-size: 16px;
 }
 
-/* line 137, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 128, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .awards__number {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-/* line 143, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 132, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.third-section {
+  margin-bottom: 110px;
+}
+
+/* line 134, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .third-section__title {
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* line 146, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 137, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .third-section__img-box {
   width: 960px;
   margin: 0 auto;
 }
 
-/* line 149, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 140, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .img-box {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 153, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 144, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .img-box__right-column {
   margin-top: 117px;
 }
 
-/* line 155, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 146, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .img-box__img {
   margin-bottom: 40px;
 }
 
-/* line 157, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 148, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .img-box__text {
   margin-bottom: 20px;
   width: 470px;
@@ -878,11 +889,361 @@ html {
   font-weight: bold;
 }
 
-/* line 164, ../../../../../../../../../../../../../Users/Daria/Desktop/конспект/html:css/project-3/src/sass/style.sass */
+/* line 155, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
 .img-box__text span {
   font-size: 22px;
   color: #747474;
   font-weight: normal;
+}
+
+/* line 159, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fourth-section {
+  margin-bottom: 150px;
+}
+
+/* line 161, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fourth-section__content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 165, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.left-text-box {
+  height: 653px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 170, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.left-text-box__title {
+  margin-bottom: 43px;
+}
+
+/* line 172, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.left-text-box__subtitle {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+/* line 175, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.left-text-box__subtitle span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* line 178, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.left-text-box__text {
+  margin-bottom: 38px;
+  font-size: 16px;
+  color: #747474;
+}
+
+/* line 182, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fifth-section {
+  margin-bottom: 145px;
+}
+
+/* line 184, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fifth-section__title {
+  margin-bottom: 115px;
+  text-align: center;
+}
+
+/* line 187, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 191, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-items {
+  height: 280px;
+  width: 350px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 201, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-items__feedback {
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-items__photo {
+  height: 80px;
+  width: 80px;
+}
+
+/* line 207, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-items__name {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* line 210, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.feedback-items__name span {
+  color: #747474;
+}
+
+/* line 212, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.sixth-section {
+  margin-bottom: 115px;
+}
+
+/* line 214, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.sixth-section__content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #020A0C;
+}
+
+/* line 219, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.sixth-section__text-box {
+  width: 570px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* line 225, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.sixth-section__photo {
+  width: 570px;
+}
+
+/* line 227, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.skill-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 231, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.skill-items__name {
+  margin-bottom: 10px;
+}
+
+/* line 234, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__title {
+  text-align: center;
+}
+
+/* line 236, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__list {
+  width: 420px;
+  margin: 0 auto;
+}
+
+/* line 239, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__items {
+  font-size: 15px;
+}
+
+/* line 241, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__hr {
+  margin-bottom: 30px;
+  width: 338px;
+  border: none;
+  border-top: 1px solid white;
+}
+
+/* line 246, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__hr_one {
+  width: 173px;
+}
+
+/* line 248, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__hr_two {
+  width: 296px;
+}
+
+/* line 250, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__hr_three {
+  width: 423px;
+}
+
+/* line 252, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.team-skills__footnote {
+  color: #747474;
+  font-size: 15px;
+}
+
+/* line 255, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.seventh-section {
+  margin-bottom: 185px;
+}
+
+/* line 257, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.seventh-section__title {
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+/* line 260, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.seventh-section__fucts-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 265, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fucts-box__items {
+  display: flex;
+  flex-direction: row;
+  height: 82px;
+  align-items: start;
+}
+
+/* line 270, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fucts-box__img {
+  margin-right: 18px;
+}
+
+/* line 272, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fucts-box__figure {
+  font-size: 53px;
+}
+
+/* line 274, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.fucts-box__name {
+  font-size: 19px;
+  color: #747474;
+}
+
+/* line 277, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.eighth-section {
+  margin-bottom: 75px;
+}
+
+/* line 279, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.eighth-section__content-container {
+  height: 340px;
+  padding-right: 120px;
+  padding-left: 120px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 288, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.eighth-section__title {
+  font-size: 94px;
+  font-weight: bold;
+  color: white;
+}
+
+/* line 292, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.eighth-section__subtitle {
+  font-size: 21px;
+  color: #747474;
+}
+
+/* line 295, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.eighth-section__subtitle span {
+  font-size: 66px;
+  font-weight: normal;
+}
+
+/* line 298, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-section {
+  margin-bottom: 50px;
+}
+
+/* line 300, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-section__logo-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+/* line 305, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-section__icon-box-item {
+  margin-right: 30px;
+}
+
+/* line 307, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-section__icon-box-item:last-child {
+  margin-right: 0px;
+}
+
+/* line 309, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 313, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info__title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 317, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info__text {
+  font-size: 18px;
+  color: #747474;
+}
+
+/* line 320, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info__nav-menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 323, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info__nav-menu-item {
+  margin-bottom: 5px;
+}
+
+/* line 325, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+.footer-info__nav-menu-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+@media (max-width: 1199px) {
+  /* line 331, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 334, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 337, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 340, ../../../../../../../../../../../../../Users/Daria/Desktop/project-creative_agency/project-creative_agency/sass/style.sass */
+  .container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
